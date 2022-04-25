@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+
+main {
+    background-color: #222940;
+    color: #BDBDBD; 
+    height: 100%;
+    width: 96vw;
+    padding: 0 2vw;
+}
+
+header {
+    text-align: center;
+    padding: 2vh 0;
+}
+
+input, select {
+    font-size: 1.1em;
+}
+
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+#name-label, #email-label, #number-label, #dropdown-label, #rating, #improve, #comments-label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    margin: 2vh 0
+}
+
+#additional {
+    max-width: 99%;
+    width: 99%;
+    height: 20vh;
+    font-size: 1.1em;
+}
+
+#submit {
+    padding: 1vh 0;
+    font-size: 1.2em;
+    margin: 2vh 0 4vh;
+
+    background-color: #37af65;
+    color: #FFF;
+}
+
+.optional {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 0.9em;
+}
+
+@media only screen and (min-width: 786px) {
+    body {
+        padding: 2% 0;
+        background: rgb(34,41,64);
+        background: linear-gradient(45deg, rgba(34,41,64,1) 0%, rgba(88,100,140,1) 50%, rgba(60,79,140,1) 100%);    }
+
+    main {
+        width: 60%;
+        margin: auto;
+
+        box-shadow: 2px 2px 5px 1px black;
+    }
+}
